@@ -15,13 +15,10 @@
         </button>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <a href="#" class="text-sm/6 font-semibold text-white">Product</a>
-        <a href="#" class="text-sm/6 font-semibold text-white">Features</a>
-        <a href="#" class="text-sm/6 font-semibold text-white">Marketplace</a>
-        <a href="#" class="text-sm/6 font-semibold text-white">Company</a>
+        <a href="/blog" class="text-sm/6 font-semibold text-white">BLOG</a>
       </div>
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-        <a href="#" class="text-sm/6 font-semibold text-white">Log in <span aria-hidden="true">&rarr;</span></a>
+        <a href="/about-me" class="text-sm/6 font-semibold text-white">About me</a>
       </div>
     </nav>
     <!-- Mobile menu, show/hide based on menu open state. -->
@@ -30,8 +27,8 @@
       <div class="fixed inset-0 z-10"></div>
       <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-gray-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white/10">
         <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
+          <a href="/" class="-m-1.5 p-1.5">
+            <span class="sr-only">MRLM.<small>NET</small></span>
             <img class="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="">
           </a>
           <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-400">
@@ -44,13 +41,10 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/25">
             <div class="space-y-2 py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Product</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Features</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Marketplace</a>
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Company</a>
+              <a href="/blog" class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-white hover:bg-gray-800">Blog</a>
             </div>
             <div class="py-6">
-              <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-800">Log in</a>
+              <a href="/about-me" class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-white hover:bg-gray-800">About me</a>
             </div>
           </div>
         </div>
